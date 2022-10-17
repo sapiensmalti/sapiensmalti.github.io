@@ -1,4 +1,4 @@
-base_url = "https://sapi.dev"
+base_url = "https://sapiensmalti.github.io"
 title = "Sapi's online fief"
 
 compile_sass = true
