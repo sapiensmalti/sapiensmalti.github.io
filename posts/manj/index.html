@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="chrome=1">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="referrer" content="no-referrer">
+
+        <link rel="stylesheet" href="https://sapiensmalti.github.io/fonts.css">
+        <link rel="stylesheet" href="https://sapiensmalti.github.io/style.css">
+
+        <title>
+    Open man page at switch section
+</title>
+
+        
+    </head>
+    <body>
+        
+    <div class="wrap">
+        <div class="section" id="title">
+            
+    Open man page at switch section
+
+        </div>
+        <div class="section" id="sections">
+            
+        </div>
+        <div class="section" id="content">
+            
+    
+        
+            
+    
+    Nov 21, 2022
+
+        
+        
+            
+                &#183; 272 words
+            
+        
+        
+            
+            
+                &#183; 2 min
+            
+        
+        
+            <div class="tag-container">
+                Tags :&nbsp;
+                
+                    <span class="tag">
+                        <a href="https://sapiensmalti.github.io/tags/open-man-page-switch-jump-to-option-shell-bash/">
+                            Open man page switch jump to option shell bash
+                        </a>
+                    </span>
+                
+            </div>
+        
+        
+            <div class="tag-container">
+                Authors :&nbsp;
+                
+                    <span class="tag">
+                        <a href="https://sapiensmalti.github.io/authors/sapi/">
+                            Sapi
+                        </a>
+                    </span>
+                
+                    <span class="tag">
+                        <a href="https://sapiensmalti.github.io/authors/the-sh-crew/">
+                            The sh crew
+                        </a>
+                    </span>
+                
+            </div>
+        
+        <hr/>
+    
+    <p>The shell is my fave pick for automation scripts that maximize compatibility and interoperability. By that I 
+mean that the first person to make a toaster run Linux was likely motivated by the ability to interface with it through 
+a shell (probably <code>bash</code>). You get IEEE Std 1003.1-2008-compliant commands (AKA Unix), software and libraries from all the free-as-in-speech-is-better groups is readily available, and it can run on hardware as old as the 80s (Intel 80486 family). Security amounts to handling 
+ssh keys (the only encryption algorithm used by the NSA on the &quot;Top Secret&quot; layer is AES). Yes, Heartbleed was bad but 
+the fact that it was discovered independently by Google and Codenomicon (yes, at the same time) tells me 
+there are eyes actively scrutinizing the specs/code.</p>
+<p>I'm using the <code>man</code> command a lot lately (and plan on continuing doing so forever and for the reasons above). So I tried to find an inline way to jump to specific sections when opening a man page. There's a <code>--pager</code> but you'll need to pass an argument that looks like this every time: &quot;less -p &quot;    --switch&quot; &quot;. So I made a (practically one-liner) script for it. Type manj $NAME_OF_COMMAND -$SWITCH and you're taken to the SWITCH-relevant section of the man page.</p>
+<h3 id="instructions">Instructions:</h3>
+<ul>
+<li>Download manj file: https://github.com/sapiensmalti/manj/blob/main/manj</li>
+<li>Save it in system's bin folder: <code>sudo cp ./manj /usr/local/bin</code></li>
+<li>Then make it executable: <code>chmod +x manj</code></li>
+<li>Finally, use by appending the command/utility's name to manj (e.g. <code>manj tcpdump -H</code>).</li>
+</ul>
+<p>You'll find the <a href="https://github.com/sapiensmalti/manj">source code here</a>.</p>
+
+
+        </div>
+        
+    <div class="section bottom-menu">
+        <hr/>
+        <p>
+            
+                
+                    <a href="&#x2F;posts">posts</a>
+                    &#183;
+                
+                    <a href="&#x2F;tools">tools</a>
+                    &#183;
+                
+                    <a href="&#x2F;about">about</a>
+                    &#183;
+                
+            
+            <a href="https:&#x2F;&#x2F;sapiensmalti.github.io">
+                home
+            </a>
+        </p>
+    </div>
+
+        
+    
+        <div class="section footer">
+            bio.link/sapi
+        </div>
+    
+
+    </div>
+
+    </body>
+</html>
